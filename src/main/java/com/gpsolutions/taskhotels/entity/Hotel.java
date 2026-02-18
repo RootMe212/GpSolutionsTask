@@ -58,8 +58,4 @@ public class Hotel {
   public void addAmenity(Amenity amenity) {
     this.amenities.add(amenity);
   }
-
-  public void removeAmenity(Amenity amenity) {
-    this.amenities.remove(amenity);
-  }
 }
