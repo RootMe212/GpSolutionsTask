@@ -1,0 +1,9 @@
+spring:
+  mongodb:
+    uri: mongodb://localhost:27017/hotelsdb
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.hibernate.autoconfigure.HibernateJpaAutoConfiguration
+      - org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration
+  liquibase:
+    enabled: false
